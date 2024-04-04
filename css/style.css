@@ -1,0 +1,96 @@
+/* light mode */
+.light {
+   background-color: #F5F3E7;
+   color: #332920;
+}
+
+.light div {
+   background-color: #C7D7C0;
+   border: 5px solid #79414f;
+   padding: 10px;
+   margin: 20px;
+} 
+
+/* dark mode */
+.dark {
+   background-color: #1d1712;
+   color: #d1cfc4;
+}
+
+.dark div {
+   background-color: #4d2730;
+   border: 5px solid #5e8b82;
+   padding: 10px;
+   margin: 20px;
+} 
+
+/* light/dark mode toggle */
+.toggle {
+   position: relative;
+   display: flex;
+   width: 30px;
+   height: 17px;
+   margin: 5px;
+}
+
+.toggle input {
+   opacity: 0;
+   width: 0;
+   height: 0;
+}
+ 
+.slider {
+   position: absolute;
+   cursor: pointer;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #000000;
+   -webkit-transition: .4s;
+   transition: .4s;
+}
+ 
+.slider:before {
+   position: absolute;
+   content: "";
+   height: 13px;
+   width: 13px;
+   left: 2px;
+   bottom: 2px;
+   background-color: #ffffff;
+   -webkit-transition: .4s;
+   transition: .4s;
+}
+
+input:checked + .slider:before {
+   -webkit-transform: translateX(13px);
+   -ms-transform: translateX(13px);
+   transform: translateX(13px);
+}
+ 
+.slider.round {
+   border-radius: 34px;
+}
+ 
+.slider.round:before {
+   border-radius: 50%;
+}
+
+/*header*/
+header {
+   border-bottom: 3px solid #4d2730;
+   display: flex;
+   justify-content: flex-end;
+}
+
+/*back button*/
+.back {
+   background-color: #79414f;
+   color: #d1cfc4;
+   margin: 5px;
+   border-radius: 15px;
+   border: none;
+   cursor: pointer;
+   padding: 7px;
+}
