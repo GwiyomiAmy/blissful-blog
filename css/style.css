@@ -94,3 +94,9 @@ header {
    cursor: pointer;
    padding: 7px;
 }
+
+/*footer*/
+footer {
+   padding: 10px;
+   border-top: 3px solid #4d2730;
+}

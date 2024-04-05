@@ -1,0 +1,16 @@
+#landing {
+   display: flex;
+   text-align: center;
+}
+
+#logo {
+   width: 50%;
+}
+
+#form {
+   width: 50%;
+}
+
+fieldset {
+   height: 400px;
+}
