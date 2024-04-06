@@ -3,33 +3,37 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--links to 2 style sheets-->
    <link rel="stylesheet" href="./css/style.css" />
    <link rel="stylesheet" href="./css/blog.css" />
-   <link rel="stylesheet" href="./css/form.css" />
    <title>Blissful Blog</title>
 </head>
+<!--class and id on the body will allow the whole page to follow the light/dark theme change-->
 <body class="light" id="page">
-      <header>
-         <button id="back" class="back"><a href="./index.html"> < Back </a> </button>
-         <label class="toggle">
-            <input type="checkbox" id="theme">
-            <span class="slider round"></span>
-         </label>
-      </header>
-         <section id="page2" >
-            <div> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ex reprehenderit adipisci consequuntur atque officiis assumenda laboriosam error ipsam, beatae magnam, voluptatum quia vero consequatur tempore vitae distinctio animi esse! </div>
-            <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. In inventore at aspernatur tempora nostrum iure iusto cumque eveniet laboriosam! Iste doloribus omnis iusto, animi culpa fugiat voluptatem explicabo reiciendis quia! </div>
-            <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit facere ab voluptatum saepe veritatis inventore provident doloribus corrupti eos dolorum, vitae ex sunt. Repellendus voluptas laudantium earum iste harum? </div>
-            <div> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam beatae aut libero maxime, ea fuga, quas esse molestias accusamus, nisi sint laboriosam! Magni mollitia blanditiis quam fuga repellat illum molestiae. </div> 
-         </section>
-         <footer>
-            <p>Portfolio: <a href="https://gwiyomiamy.github.io/portfolio/">Amy </a> </p>
-            <p>Blog: <a href=" ">Blissful Blog </a> </p>
-            <p>Email: amy.c.jenkins.14@gmail.com</p>
-         </footer>
-
+   <!--header contains light/dark mode toggle, back button, and blog name-->
+   <header>
+      <button id="back" class="back"><a href="./index.html"> < Back </a> </button>
+      <label class="toggle">
+         <input type="checkbox" id="theme">
+         <span class="slider round"></span>
+      </label>
+   </header>
+   <!--section for the blog entries-->
+   <section id="page2" >
+      <div class="card">
+         <p> <span id="saved-username"></span></p>
+         <p><span id="saved-title"></span></p>
+         <p><span id="saved-content"></span></p>
+         </div>
+   </section>
+   <!--footer section with links to developer's pages-->
+   <footer>
+      <p>Portfolio: <a href="https://gwiyomiamy.github.io/portfolio/">Amy </a> </p>
+      <p>Blog: <a href=" ">Blissful Blog </a> </p>
+      <p>Email: amy.c.jenkins.14@gmail.com</p>
+   </footer>
+   <!--links to 2 JavaScript sheets-->
    <script src="./js/blog.js"></script>
-   <script src="./js/form.js"></script>
    <script src="./js/logic.js"></script>
 </body>
 </html>

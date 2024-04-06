@@ -3,45 +3,57 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--links to 2 style sheets-->
    <link rel="stylesheet" href="./css/style.css" />
-   <link rel="stylesheet" href="./css/blog.css" />
    <link rel="stylesheet" href="./css/form.css" />
    <title>Blissful Blog</title>
 </head>
+<!--class and id on the body will allow the whole page to follow the light/dark theme change-->
 <body class="light" id="page">
-      <header>
-         <label class="toggle">
-            <input type="checkbox" id="theme">
-            <span class="slider round"></span>
-         </label>
-      </header>
-      <section id="landing">
-         <section id="logo">
-            <h1>Blissful Blog</h1>
-         </section>
-         <form id="form">
-            <fieldset>
-               <h3>Unload your thoughts here:</h3>
-               <label>Username:</label>
-               <input type="text" placeholder="Username" />
-               <br />
-               <label>Title:</label>
-               <input type="text" placeholder="Title" />
-               <br />
-               <label>Content:</label>
-               <textarea rows="10" cols="35"></textarea>
-               <br />
-               <button class="submit"> <a href="./blog.html">Submit </a> </button>
-            </fieldset>
-         </form>
-      </section>  
-      <footer>
-         <p>Portfolio: <a href="https://gwiyomiamy.github.io/portfolio/">Amy </a> </p>
-         <p>Blog: <a href=" ">Blissful Blog </a> </p>
-         <p>Email: amy.c.jenkins.14@gmail.com</p>
-      </footer>
+   <!--header contains light/dark mode toggle-->
+   <header>
+      <label class="toggle">
+         <input type="checkbox" id="theme">
+         <span class="slider round"></span>
+      </label>
+   </header>
+   <!--the body section between the header and the footer-->
+   <section id="landing">
+      <!--the content on the left side-->
+      <section id="logo">
+         <h1>Blissful Blog</h1>
+      </section>
+      <!--the form on the right side-->
+      <section id="form">
+         <h3>Unload your thoughts here:</h3>
+         <form>
+            <ul>
+               <li>
+                  <label>Username:</label>
+                  <input type="text" placeholder="Username" id="username" />
+               </li>
+               <li>
+                  <label>Title:</label>
+                  <input type="text" placeholder="Title" id="title" />
+               </li>
+               <li>
+                  <label>Content:</label>
+                  <textarea rows="10" cols="35" id="content"></textarea>
+               </li>
 
-   <script src="./js/blog.js"></script>
+            </ul>
+            <button class="submit"> <a href="./blog.html">Submit </a> </button>
+         </form>
+
+      </section>
+   </section>  
+   <!--footer section with links to developer's pages-->
+   <footer>
+      <p>Portfolio: <a href="https://gwiyomiamy.github.io/portfolio/">Amy </a> </p>
+      <p>Blog: <a href=" ">Blissful Blog </a> </p>
+      <p>Email: amy.c.jenkins.14@gmail.com</p>
+   </footer>
+   <!--links to 2 JavaScript sheets-->
    <script src="./js/form.js"></script>
    <script src="./js/logic.js"></script>
 </body>

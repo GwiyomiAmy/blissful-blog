@@ -1,16 +1,19 @@
 #landing {
    display: flex;
    text-align: center;
+   height: 400px;
 }
 
 #logo {
    width: 50%;
+   border-right: 1px solid #4d2730;
 }
 
 #form {
    width: 50%;
+   border-left: 1px solid #4d2730;
 }
 
-fieldset {
-   height: 400px;
+li {
+   list-style-type: none;
 }

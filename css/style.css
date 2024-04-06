@@ -46,7 +46,7 @@
    left: 0;
    right: 0;
    bottom: 0;
-   background-color: #000000;
+   background-color: #79414f;
    -webkit-transition: .4s;
    transition: .4s;
 }
@@ -82,21 +82,15 @@ header {
    border-bottom: 3px solid #4d2730;
    display: flex;
    justify-content: flex-end;
-}
-
-/*back button*/
-.back {
-   background-color: #79414f;
-   color: #d1cfc4;
-   margin: 5px;
-   border-radius: 15px;
-   border: none;
-   cursor: pointer;
-   padding: 7px;
+   height: 50px;
 }
 
 /*footer*/
 footer {
    padding: 10px;
    border-top: 3px solid #4d2730;
+}
+
+a {
+   text-decoration: none; /*no underlinking of links*/
 }

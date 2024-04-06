@@ -1,0 +1,11 @@
+/*back button*/
+.back {
+   background-color: #79414f;
+   color: #d1cfc4;
+   margin: 5px;
+   border-radius: 15px;
+   border: none;
+   cursor: pointer;
+   padding: 7px;
+}
+
