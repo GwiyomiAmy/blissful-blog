@@ -1,5 +1,6 @@
 //reference to toggle button
 const toggle = document.querySelector('#theme');
+const page = document.querySelector('#page');
 
 //set default mode to light
 let mode = "light";

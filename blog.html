@@ -3,6 +3,10 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
    <!--links to 2 style sheets-->
    <link rel="stylesheet" href="./css/style.css" />
    <link rel="stylesheet" href="./css/blog.css" />
@@ -11,23 +15,25 @@
 <!--class and id on the body will allow the whole page to follow the light/dark theme change-->
 <body class="light" id="page">
    <!--header contains light/dark mode toggle, back button, and blog name-->
-   <header>
-      <button id="back" class="back"><a href="./index.html"> < Back </a> </button>
-      <label class="toggle">
-         <input type="checkbox" id="theme">
-         <span class="slider round"></span>
-      </label>
+   <header >
+      <section class="left">
+         <h1>Blissful Blog</h1>
+      </section>
+      <section class="right">
+         <button id="back" class="back"><a href="./index.html"> < Back </a> </button>
+         <label class="toggle">
+            <input type="checkbox" id="theme">
+            <span class="slider round"></span>
+         </label>
+      </section>
    </header>
    <!--section for the blog entries-->
    <section id="page2" >
       <div class="card">
-         <p> <span id="saved-username"></span></p>
-         <p><span id="saved-title"></span></p>
-         <p><span id="saved-content"></span></p>
-         </div>
+       </div>
    </section>
    <!--footer section with links to developer's pages-->
-   <footer>
+   <footer >
       <p>Portfolio: <a href="https://gwiyomiamy.github.io/portfolio/">Amy </a> </p>
       <p>Blog: <a href=" ">Blissful Blog </a> </p>
       <p>Email: amy.c.jenkins.14@gmail.com</p>

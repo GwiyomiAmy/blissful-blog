@@ -9,3 +9,11 @@
    padding: 7px;
 }
 
+.left {
+   float: left;
+}
+
+.right {
+   float: right;
+}
+
