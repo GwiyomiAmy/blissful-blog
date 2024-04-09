@@ -9,11 +9,16 @@
    padding: 7px;
 }
 
-.left {
-   float: left;
-}
-
+/*toggle and back button on the right side of header*/
 .right {
-   float: right;
+   display: flex;
+   align-items: center;
 }
 
+/*blog name on left side of header*/
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 5px;
+}

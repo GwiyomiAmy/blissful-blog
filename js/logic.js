@@ -5,7 +5,7 @@ const page = document.querySelector('#page');
 //set default mode to light
 let mode = "light";
 //let mode = localStorage.getItem('mode');
-console.log(mode)
+//console.log(mode)
 
 //add function to toggle when clicked to switch between the dark and light class style elements
 toggle.addEventListener('click', function(e){

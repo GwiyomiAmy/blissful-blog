@@ -10,7 +10,7 @@ function init() {
     blogPosts = storedBlogPosts;
   }
 }
-   
+   //add the data from local storage to the page
    function renderBlogPosts() {
       page2.innerHTML = '';
    

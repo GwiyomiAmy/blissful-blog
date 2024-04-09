@@ -8,9 +8,6 @@ const submit = document.querySelector('.submit');
 //create array for blog posts
 let blogPosts = [];
 
-
-
-
 //pull from local storage the previous arrays and parse from string to object array
 function init() {
    const storedBlogPosts = JSON.parse(localStorage.getItem('blogPosts'));
@@ -36,7 +33,7 @@ submit.addEventListener('click', function (e) {
       content: content.value.trim(),
    }
 
-   //if
+   //if blank, do not allow to submit form
    if (newBlogPost.username === '' || newBlogPost.title === '' || newBlogPost.content === '') {
      alert("Please fill in the form")
    } else {

@@ -95,11 +95,11 @@ footer {
 
 a {
    text-decoration: none; /*no underlinking of links*/
-   color: inherit;
+   color: inherit; /*no special link color*/
 }
 
 * {
-   font-family: "Livvic", sans-serif;
+   font-family: "Livvic", sans-serif; /*google font*/
    font-weight: 400;
    font-style: normal;
    margin: 0;

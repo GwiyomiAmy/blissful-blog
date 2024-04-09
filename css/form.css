@@ -4,6 +4,7 @@
    height: 400px;
 }
 
+/*to the left of the form*/
 #logo {
    width: 50%;
    border-right: 1px solid #4d2730;
@@ -13,30 +14,32 @@
    font-size: 52px;
 }
 
+/*submit button*/
 .submit {
    border-radius: 15px;
    background-color: #301f30;
    color: white;
 }
 
-
-
+/*form style*/
 #form {
    width: 50%;
    border-left: 1px solid #4d2730;
    display: block;
    margin-top: 20px;
- 
 }
 
+/*remove dots from list*/
 li {
    list-style-type: none;
 }
 
+/*add space above h3*/
 h3 {
    margin-bottom: 20px;
 }
 
+/*toggle on the right side of header*/
 header {
    justify-content: flex-end;
 }
